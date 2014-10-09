@@ -104,7 +104,7 @@ public class UI {
 		c.gridy = 0;
 		c.anchor = GridBagConstraints.WEST;
 		boardGUI.add(mineLabelPanel, c);
-		JLabel mineLabel = minesweeper.getmineLabel();
+		JLabel mineLabel = minesweeper.getMineLabel();
 		c.gridx = 0;
 		c.gridy = 0;
 		mineLabelPanel.add(mineLabel, c);
@@ -113,7 +113,7 @@ public class UI {
 		c.gridy = 0;
 		c.anchor = GridBagConstraints.EAST;
 		boardGUI.add(timeLabelPanel, c);
-		JLabel timeLabel = minesweeper.gettimerLabel();
+		JLabel timeLabel = minesweeper.getTimerLabel();
 		c.gridx = 0;
 		c.gridy = 0;
 		timeLabel.setText("0");

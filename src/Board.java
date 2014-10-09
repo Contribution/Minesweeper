@@ -50,12 +50,8 @@ public class Board {
 		return this.timerLabel;
 	}
 
-	public JLabel getmineLabel() {
+	public JLabel getMineLabel() {
 		return this.mineLabel;
-	}
-
-	public JLabel gettimerLabel() {
-		return this.timerLabel;
 	}
 
 	public void setBombLocations() {
