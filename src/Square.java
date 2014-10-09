@@ -7,7 +7,7 @@ public class Square {
 	private int number;
 	private JButton button;
 	private URL imagePath;
-	private static final int bomb = 9;
+	private static final int BOMB = 9;
 
 	Square() {
 		number = 0;
@@ -61,7 +61,7 @@ public class Square {
 		case 8:
 			this.setImage(imageURL("/eight.png"));
 			break;
-		case bomb:
+		case BOMB:
 			this.setImage(imageURL("/bomb.png"));
 		}
 	}
